@@ -1,37 +1,39 @@
-/* CSS HEX 
+/* CSS HEX COLORS
 --shadow-blue: #7a93acff;
 --gunmetal: #30343fff;
 --vivid-tangerine: #ea9e8dff;
 --eerie-black: #1b2021ff;
 --tea-green: #cadbc0ff; */
-main {
-    padding: 5px 5px 5px 5px;
-}
-#maincon {
-    border: 2px black solid;
+
+/* HEADING AND NAVIGATION */
+.navbar-brand {
+    color: #ea9e8dff;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
     
 }
-nav, h1, footer {
-    font-family: 'Permanent Marker', cursive;
+.nav-link, .nav-link, .active, .nav, .justify-content-end li a {
+    font-family: 'Peddana', serif;
+    font-size: 30px;
+    color: #cadbc0ff;
 }
-nav {
-    width: 100%;
-    top:0;
-    z-index: 1;
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+p {
+    font-family: 'Peddana', serif;
+}
+#colorme1 {
+    color: #ea9e8dff;
+}
+#colorme2 {
+    color: #cadbc0ff;
+}
+body {
+    background-color: #7a93acff;
 }
 .container {
-    width: 50%;
+    margin: 15px 15px 15px 15px;
+    border: 2px black solid;
+    background-color: white;
 }
-footer {
-    background-color: #f9ebe0ff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    margin: 0;
-    text-align: center;
-    display: none;
-    
-}
-
-  
