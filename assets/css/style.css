@@ -47,9 +47,17 @@ footer {
 #a-yellow {
     color: #f6f740ff;
 }
-#a-blue {
-    color: #357dedff;
-}
-#a-orange {
-    color: #ff6700ff;
+@media only screen and (max-width: 600px) {
+    main {
+        margin: 5px 5px 5px 5px;
+    }
+    .orange {
+        width: 95%;
+    }
+    .yellow {
+        width: 85%;
+    }
+    .container.mt-3 {
+        width: 100vh;
+    }
 }
