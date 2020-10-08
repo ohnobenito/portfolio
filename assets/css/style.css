@@ -1,39 +1,55 @@
-/* CSS HEX COLORS
---shadow-blue: #7a93acff;
---gunmetal: #30343fff;
---vivid-tangerine: #ea9e8dff;
---eerie-black: #1b2021ff;
---tea-green: #cadbc0ff; */
+/* colors! 
+--safety-orange-blaze-orange: #ff6700ff;
+--azure: #357dedff;
+--maximum-yellow: #f6f740ff; */
 
-/* HEADING AND NAVIGATION */
-.navbar-brand {
-    color: #ea9e8dff;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    
+
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Comfortaa", cursive;
 }
-.nav-link, .nav-link, .active, .nav, .justify-content-end li a {
-    font-family: 'Peddana', serif;
-    font-size: 30px;
-    color: #cadbc0ff;
+main {
+    background-color: #357dedff;
+    margin: 15px 15px 15px 15px;
+}
+.orange {
+    background-color: #ff6700ff;
+    width: 95%;
+    position: relative;
+    top: 20px;
+}
+.yellow {
+    background-color: #f6f740ff;
+    width: 95%;
+    position: relative;
+    top: 20px;
 }
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-weight: 30px;
 }
-p {
-    font-family: 'Peddana', serif;
+.col-8 {
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: -10px;
 }
-#colorme1 {
-    color: #ea9e8dff;
+footer {
+    position: sticky;
+    text-align: right;
+    color: #f6f740ff;
+    height: 10%;
+    width: auto;
+    margin-top: 30px;
+    background-color: grey;
+    padding-right: 10px;
 }
-#colorme2 {
-    color: #cadbc0ff;
+#a-yellow {
+    color: #f6f740ff;
 }
-body {
-    background-color: #7a93acff;
+#a-blue {
+    color: #357dedff;
 }
-.container {
-    margin: 15px 15px 15px 15px;
-    border: 2px black solid;
-    background-color: white;
+#a-orange {
+    color: #ff6700ff;
 }
