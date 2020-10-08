@@ -27,12 +27,12 @@ main {
     top: 20px;
 }
 h1 {
-    font-weight: 30px;
+    font-weight: bolder;
 }
 .col-8 {
     font-size: 16px;
     line-height: 30px;
-    padding-left: -10px;
+    padding-left: 20px;
 }
 footer {
     position: sticky;
