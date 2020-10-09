@@ -1,15 +1,22 @@
-/* colors! 
---safety-orange-blaze-orange: #ff6700ff;
---azure: #357dedff;
---maximum-yellow: #f6f740ff; */
 
-
+/* Background Image */
 body {
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Comfortaa", cursive;
 }
+/* Navigation Style */
+#a-yellow {
+    color: #f6f740ff;
+}
+#a-orange {
+    color: #ff6700ff;
+}
+#a-blue {
+    color: #357dedff;
+}
+/* Main section elements */
 main {
     background-color: #357dedff;
     margin: 15px 15px 15px 15px;
@@ -25,6 +32,7 @@ main {
     width: 95%;
     position: relative;
     top: 20px;
+    margin-bottom: 10px;
 }
 h1 {
     font-weight: bolder;
@@ -34,30 +42,11 @@ h1 {
     line-height: 30px;
     padding-left: 20px;
 }
-footer {
-    position: sticky;
-    text-align: right;
-    color: #f6f740ff;
-    height: 10%;
-    width: auto;
-    margin-top: 30px;
-    background-color: grey;
-    padding-right: 10px;
-}
-#a-yellow {
-    color: #f6f740ff;
-}
-@media only screen and (max-width: 600px) {
-    main {
-        margin: 5px 5px 5px 5px;
-    }
-    .orange {
-        width: 95%;
-    }
-    .yellow {
-        width: 85%;
-    }
-    .container.mt-3 {
-        width: 100vh;
-    }
-}
+/* --End of Main Elements -- */
+
+/* Color Key:  
+safety-orange-blaze-orange: #ff6700ff;
+azure: #357dedff;
+maximum-yellow: #f6f740ff; */
+
+
