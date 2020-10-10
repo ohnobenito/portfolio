@@ -2,11 +2,10 @@
 /* Background Image */
 body {
     background-image: url('../images/background.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     font-family: "Comfortaa", cursive;
 }
-/* Navigation Style */
+/* Navigation Styles */
 #a-yellow {
     color: #f6f740ff;
 }
@@ -36,11 +35,6 @@ main {
 }
 h1 {
     font-weight: bolder;
-}
-.col-8 {
-    font-size: 16px;
-    line-height: 30px;
-    padding-left: 20px;
 }
 /* --End of Main Elements -- */
 
