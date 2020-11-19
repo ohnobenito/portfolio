@@ -2,9 +2,9 @@
 
 **Link:** https://ohnobenito.github.io/portfolio
 
-**Screen Shots - Small Screen**
+**Screen Shot - Small Screen**
 
-![Screenshot 1:](/assets/images/Small1_50.png) ![Screenshot 2:](/assets/images/Small2_50.png)
+ ![Screenshot 1:](/assets/images/Small2_50.png)
 
 **Screen Shots - Larger Devices**
 ![Screenshot 3:](/assets/images/Large1.png)
